@@ -1,0 +1,37 @@
+## Generic files to ignore
+._*
+*.*~
+*.lock
+*.DS_Store
+*.swp
+*.tmp
+*.out
+*.map
+
+# Python junk
+.Python
+__pycache__/
+__pypackages__/
+*.py[cod]
+*$py.class
+wheels/
+share/python-wheels/
+eggs/
+.eggs/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+*.manifest
+*.spec
+pip-log.txt
+pip-delete-this-directory.txt
+
+# PyInstaller
+build/
+dist/
+
+# Various
+.vscode/
+env/
+TODO.txt
